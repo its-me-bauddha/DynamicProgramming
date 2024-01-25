@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int bottomUpSolve(int n)
+int bottomUpSolveTab(int n)
 {
 
     // STEP 1 : create DP array
@@ -27,7 +27,7 @@ int fib(int n)
     // T.C = O(n)
     // S.C = O(n) Better than top down approach
     // because it topdown takes extra space for call stack (recursive calls)
-    int ans = bottomUpSolve(n);
+    int ans = bottomUpSolveTab(n);
     return ans;
 }
 int main()
