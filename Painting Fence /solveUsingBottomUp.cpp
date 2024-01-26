@@ -16,8 +16,8 @@ int solveUsingTab(int n, int k)
 }
 int main()
 {
-    int n = 4;
-    int k = 3;
+    int n = 2;
+    int k = 2;
     int ans = solveUsingTab(n, k);
 
     cout << "Printing Ans -> " << ans << endl;
