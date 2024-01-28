@@ -39,9 +39,6 @@ int mctFromLeafValues(vector<int> &arr)
     }
 
     int n = arr.size();
-    // int ans = solveUsingRecursion(arr,maxi,0,n-1);
-    // vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
-    // int ans = solveUsingMem(arr,maxi,0,n-1,dp);
     int ans = solveUsingTab(arr, maxi);
     return ans;
 }
